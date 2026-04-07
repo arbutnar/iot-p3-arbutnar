@@ -6,7 +6,6 @@ metadata:
   name: wil-playground
   namespace: dev
 spec:
-  type: LoadBalancer
   selector:
     app: wil-playground
   ports:
