@@ -1,17 +1,17 @@
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: wil-playground
-spec:
-  ingressClassName: nginx
-  rules:
-  - host: playground.wil.local
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: wil-playground
-            port:
-              number: 8080
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: wil-playground
+# spec:
+#   ingressClassName: nginx
+#   rules:
+#   - host: playground.wil.local
+#     http:
+#       paths:
+#       - path: /
+#         pathType: Prefix
+#         backend:
+#           service:
+#             name: wil-playground
+#             port:
+#               number: 8080
